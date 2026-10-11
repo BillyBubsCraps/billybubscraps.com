@@ -3,7 +3,9 @@
    To turn X on once @billybubscraps exists: set enabled:true on the "x" entry and redeploy.
    Add other accounts ONLY once they exist, e.g. { id: "instagram", label: "Instagram", url: "https://www.instagram.com/<handle>/", enabled: true }. */
 window.BB_SOCIAL = [
-  { id: "x", label: "X", url: "https://x.com/billybubscraps", enabled: false }  /* pending: @billybubscraps not confirmed yet */,
+  { id: "x", label: "X", url: "https://x.com/billybubscraps", enabled: true },
+  { id: "instagram", label: "Instagram", url: "https://www.instagram.com/billybubscraps/", enabled: true },
+  { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@billybubscraps", enabled: true }
 ];
 (function () {
   var on = window.BB_SOCIAL.filter(function (s) { return s.enabled; });
