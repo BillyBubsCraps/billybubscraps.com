@@ -1,0 +1,27 @@
+{
+ "name": "Billy Bubs",
+ "short_name": "Billy Bubs",
+ "description": "Craps practice apps. 18+ \u00b7 Practice only \u00b7 No real money.",
+ "start_url": "/",
+ "display": "browser",
+ "background_color": "#07120D",
+ "theme_color": "#0F4A31",
+ "icons": [
+  {
+   "src": "/assets/icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/assets/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/assets/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
